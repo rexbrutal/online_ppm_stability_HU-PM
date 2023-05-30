@@ -29,7 +29,7 @@ Given the sequence of the standard deviations $\langle \varphi_1, ..., \varphi_n
 3. Magnitude of performance drop
 
 The magnitude of performance drop is the difference between a drop point $p_{i}$ and the moving average $ma_i$, i.e., $\lvert p_i - ma_i \rvert$. 
-We then define the maximum magnitude $\mathbb{M}_{max}$ and the average magnitude $\mathbb{M}_{avg}$ of performance drop as follows:
+We then define the maximum magnitude $\mathbb{M}\_{max}$ and the average magnitude $\mathbb{M}\_{avg}$ of performance drop as follows:
 
 <img src=https://latex2png.com/pngs/5a68b7f18098af3b6762f8f81051e1ac.png></img>
 
@@ -38,9 +38,8 @@ We then define the maximum magnitude $\mathbb{M}_{max}$ and the average magnitud
 
 4. Recovery rate
 
-The recovery rate of a significant drop $D_{i}$ is calculated by counting the number of drop points in a drop, i.e., $\lvert D_{i} \rvert$. Having defined the recovery rate of a significant drop, the recovery ability of the predictive framework is measured by the average of the recovering rate of all drops, given the performance result $\theta$. It is calculated using the average of the collected recovery rate. 
-% According to the definition of the significant drop, the size of the drop is dependent on the moving average window size $M$. 
-% The normalized recovery rate is designed to diminish the influence of moving average window size. 
+The recovery rate of a significant drop $D_{i}$ is calculated by counting the number of drop points in a drop, i.e., $\lvert D\_{i} \rvert$. Having defined the recovery rate of a significant drop, the recovery ability of the predictive framework is measured by the average of the recovering rate of all drops, given the performance result $\theta$. It is calculated using the average of the collected recovery rate. 
+
 The average recovery rate ($\mathbb{R}_{avg}$) of the performance result $\theta$ is defined as follows:
 
 <img src=https://latex2png.com/pngs/a65f835e5a380c61e305980581bdb6c1.png></img>
