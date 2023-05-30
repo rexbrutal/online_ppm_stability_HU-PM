@@ -24,22 +24,17 @@ Given the sequence of performance values $\theta = \langle p_1, ..., p_n \rangle
 
 Given the sequence of the standard deviations $\langle \varphi_1, ..., \varphi_n \rangle$, the average of the sequence of standard deviations $\mathbb{S}_{perf}$ is defined as follows: 
 
-$$
-\mathbb{S}_{perf} = \frac{\sum_{i=1}^{n}\varphi_{i}}{n}
-$$
+<img src=https://latex2png.com/pngs/6b7a2493257ece2b8c7cd164078ff7dc.png></img>
 
 3. Magnitude of performance drop
 
 The magnitude of performance drop is the difference between a drop point $p_{i}$ and the moving average $ma_i$, i.e., $\lvert p_i - ma_i \rvert$. 
 We then define the maximum magnitude $\mathbb{M}_{max}$ and the average magnitude $\mathbb{M}_{avg}$ of performance drop as follows:
 
-$$
-\mathbb{M}_{max} = \max_{D \in \mathbb{D}(\theta), p_i \in D}{ \lvert p_{i} - ma_{i} \rvert }
-$$
+<img src=https://latex2png.com/pngs/5a68b7f18098af3b6762f8f81051e1ac.png></img>
 
-$$
-\mathbb{M}_{avg} = avg_{D \in \mathbb{D}(\theta), p_i \in D}{ \lvert p_{i} - ma_{i} \rvert }
-$$
+
+<img src=https://latex2png.com/pngs/059edf0c13a65fd5369b4da093b8ec82.png></img>
 
 4. Recovery rate
 
@@ -48,7 +43,5 @@ The recovery rate of a significant drop $D_{i}$ is calculated by counting the nu
 % The normalized recovery rate is designed to diminish the influence of moving average window size. 
 The average recovery rate ($\mathbb{R}_{avg}$) of the performance result $\theta$ is defined as follows:
 
-$$
-\mathbb{R}_{avg} = \frac{\sum_{D_i \in \mathbb{D}(\theta)} \lvert D_i \rvert }{ |\mathbb{D}(\theta)|}
-$$
+<img src=https://latex2png.com/pngs/a65f835e5a380c61e305980581bdb6c1.png></img>
 
