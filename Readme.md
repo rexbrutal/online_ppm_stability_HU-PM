@@ -18,7 +18,7 @@ The proposed framework is evaluated using artificial and real-world event logs. 
 Given the sequence of performance values $\theta = \langle p_1, ..., p_n \rangle$ and the drops $\mathcal{D}(\theta) = \{D_1, ..., D_m\}$, the (normalized) frequency $\mathbb{F}$ of significant performance drops is defined as follows:
 
 
-<img src=https://latex2png.com/pngs/605a479c4d1fc91fe76f1d281182b957.png></img>
+<img src=https://latex2png.com/pngs/267efd56023439c6aa5dded1628b17bc.png></img>
 
 1. Stability of performance
 
