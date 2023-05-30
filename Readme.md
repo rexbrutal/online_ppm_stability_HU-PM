@@ -1,7 +1,8 @@
-# StabMeasuring Stability of Online Process Outcome Prediction Frameworks
+# Measuring Stability of Online Process Outcome Prediction Frameworks
 ## Suhwan Lee <sup>1</sup>, Marco Comuzzi<sup>2</sup>, Xixi Lu<sup>1</sup>, Hajo A. Reijers<sup>1</sup>
 
-<sup>1</sup> Utrecht University, Utrecht, The Netherlands \
+<sup>1</sup> Utrecht University, Utrecht, The Netherlands
+
 <sup>2</sup> Ulsan National Institute of Science and Technology, Ulsan, Republic of Korea
 
 Process mining in online settings is becoming increasingly relevant. In the context of online process predictive monitoring, many approaches have been proposed to predict process outcomes. In contrast, very few have considered the issue of performance evaluation in-depth. In particular, the stability of an online prediction framework is important and influences the selection of the framework. 
@@ -16,11 +17,10 @@ The proposed framework is evaluated using artificial and real-world event logs. 
 
 Given the sequence of performance values $\theta = \langle p_1, ..., p_n \rangle$ and the drops $\mathcal{D}(\theta) = \{D_1, ..., D_m\}$, the (normalized) frequency $\mathbb{F}$ of significant performance drops is defined as follows:
 
-$$
-\mathbb{F} = \frac{\sum_{D_i \in \mathbb{D}(\theta)} \rvert D_i\lvert}{\rvert \theta \lvert} 
-$$
 
-2. Stability of performance
+<img src=https://latex2png.com/pngs/605a479c4d1fc91fe76f1d281182b957.png></img>
+
+1. Stability of performance
 
 Given the sequence of the standard deviations $\langle \varphi_1, ..., \varphi_n \rangle$, the average of the sequence of standard deviations $\mathbb{S}_{perf}$ is defined as follows: 
 
