@@ -22,7 +22,7 @@ Given the sequence of performance values $\theta = \langle p_1, ..., p_n \rangle
 <img src=https://latex2png.com/pngs/267efd56023439c6aa5dded1628b17bc.png></img>
 </p>
 
-1. Stability of performance
+2. Stability of performance
 
 Given the sequence of the standard deviations $\langle \varphi_1, ..., \varphi_n \rangle$, the average of the sequence of standard deviations $\mathbb{S}_{perf}$ is defined as follows: 
 <p align="center">
