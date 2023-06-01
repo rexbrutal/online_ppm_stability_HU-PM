@@ -35,7 +35,9 @@ The magnitude of performance drop is the difference between a drop point $p_{i}$
 We then define the maximum magnitude $\mathbb{M}\_{max}$ and the average magnitude $\mathbb{M}\_{avg}$ of performance drop as follows:
 <p align="center">
 <img src=https://latex2png.com/pngs/5a68b7f18098af3b6762f8f81051e1ac.png></img>
+</p>
 
+<p align="center">
 <img src=https://latex2png.com/pngs/059edf0c13a65fd5369b4da093b8ec82.png></img>
 </p>
 
