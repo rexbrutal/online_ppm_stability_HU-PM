@@ -1,4 +1,4 @@
-## Experiment results
+## Empirical results
 
 ### Meta-measures: BPIC 2017 log with XGB classifier
 | Prefix | Average F1 score  from streaming | Drops | Avg. moving std. | Max. Magnitude | Avg. Magnitude | Recovery rate |
@@ -36,4 +36,10 @@
     
 </p>
 
+
+<h1>
+<a href="https://github.com/ghksdl6025/online_ppm_stability/blob/master/result analysis.xlsx">Additional results</a> together with extra performance measurements
+
+(Precision, Recall, Accuracy)
+</h1>
 
